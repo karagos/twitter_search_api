@@ -3,9 +3,9 @@ import simplejson
 
 # retrieve a page
 base_url = 'http://search.twitter.com/search.json?q='
-q = '#ConMaduroAlVolante'
+q = 'drinkfinity'
 options = '&rpp=600&page='
-page = 1
+page = 4
 
 while 1:
     try:
